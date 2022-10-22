@@ -30,7 +30,3 @@ class TestScraperMethods(unittest.TestCase):
     # Argument is out of range
     def test_scrape_imdb_top_250_3(self):
         self.assertRaises(Exception, scrape_imdb_top_250, -1)
-
-
-if __name__ == '__main__':
-    unittest.main()

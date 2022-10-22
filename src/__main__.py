@@ -2,6 +2,7 @@ import json
 
 from Scraper import *
 from Review_penalizer import *
+from OscarCalculator import oscar_calculator
 
 
 def dump_into_json(data, filename):
@@ -12,7 +13,8 @@ def dump_into_json(data, filename):
 def main():
     data = scrape_imdb_top_250(20)
     penalized_data = review_penalizer(data)
-    dump_into_json(penalized_data, 'imdb_sheet.json')
+    oscar_data = oscar_calculator(penalized_data)
+    dump_into_json(oscar_data, 'imdb_sheet.json')
 
 
 if __name__ == '__main__':
