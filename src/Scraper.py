@@ -8,7 +8,7 @@ def scrape_imdb_top_250(counter_max):
 
     url = 'https://www.imdb.com/chart/top/'
     r = requests.get(url)
-    soup = BeautifulSoup(r.content,'html.parser')
+    soup = BeautifulSoup(r.content, 'html.parser')
     rows = soup.select('#main > div > span > div > div > div.lister > table > tbody tr')
 
     data = []
@@ -22,8 +22,8 @@ def scrape_imdb_top_250(counter_max):
         movie_url = 'https://www.imdb.com' + movie_href
 
         d['name'] = rows[i].select_one('.titleColumn a').text.strip()
-        d['rating_score'] = rating_raw.split(' ')[0]
-        d['number_of_ratings'] = rating_raw.split(' ')[-3]
+        d['rating_score'] = float(rating_raw.split(' ')[0])
+        d['number_of_ratings'] = int(rating_raw.split(' ')[-3].replace(',', ''))
         d['number_of_oscars'] = scrape_number_of_oscars(movie_url)
         
         data.append(d)
