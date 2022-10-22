@@ -1,8 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 
 def scrape_imdb_top_250(counter_max):
+
+    if counter_max > 250 or counter_max < 0:
+        raise Exception("Input is out of range")
 
     url = 'https://www.imdb.com/chart/top/'
     r = requests.get(url)
@@ -33,6 +35,6 @@ def scrape_number_of_oscars(movie_url):
     soup = BeautifulSoup(r.content,'html.parser')
     oscar_row = soup.select_one('#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc-9b716f3b-0.hWwhTB > div > section > div > div.sc-b1d8602f-1.fuYOtZ.ipc-page-grid__item.ipc-page-grid__item--span-2 > section:nth-child(3) > div > ul > li > a.ipc-metadata-list-item__label.ipc-metadata-list-item__label--link').text.strip()
     if 'Won' in oscar_row:
-        return oscar_row.split(' ')[1]
+        return int(oscar_row.split(' ')[1])
     else:
         return 0
