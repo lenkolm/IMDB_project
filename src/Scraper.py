@@ -25,9 +25,8 @@ def scrape_imdb_top_250(counter_max):
         d['number_of_oscars'] = scrape_number_of_oscars(movie_url)
         
         data.append(d)
-        
-        with open('raw_imdb_sheet.json', 'w') as f:
-            json.dump(data, f)
+
+    return data
 
 def scrape_number_of_oscars(movie_url):
     r = requests.get(movie_url)
@@ -37,6 +36,3 @@ def scrape_number_of_oscars(movie_url):
         return oscar_row.split(' ')[1]
     else:
         return 0
-    
-
-scrape_imdb_top_250(20)
