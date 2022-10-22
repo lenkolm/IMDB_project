@@ -5,8 +5,7 @@ from src.Review_penalizer import *
 
 class TestReviewPenalizerMethods(unittest.TestCase):
 
-    # First element is the biggest
-    def test_find_most_rated_movie_1(self):
+    def test_find_most_rated_movie_first_one_is_biggest(self):
         data = [
             {
                 "number_of_ratings": 103
@@ -20,8 +19,8 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         ]
         self.assertEqual(find_most_rated_movie(data), 103)
 
-    # Second movie is the biggest
-    def test_find_most_rated_movie_2(self):
+
+    def test_find_most_rated_movie_second_one_is_biggest(self):
         data = [
             {
                 "number_of_ratings": 103
@@ -35,8 +34,8 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         ]
         self.assertEqual(find_most_rated_movie(data), 104)
 
-    # Third movie is the biggest
-    def test_find_most_rated_movie_3(self):
+
+    def test_find_most_rated_movie_third_one_is_biggest(self):
         data = [
             {
                 "number_of_ratings": 103
@@ -50,13 +49,13 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         ]
         self.assertEqual(find_most_rated_movie(data), 105)
 
-    # No movies
-    def test_find_most_rated_movie_4(self):
+
+    def test_find_most_rated_movie_4_no_movies(self):
         data = []
         self.assertEqual(find_most_rated_movie(data), 0)
 
-    # All movies are the same
-    def test_find_most_rated_movie_5(self):
+
+    def test_find_most_rated_movie_all_ratings_the_same(self):
         data = [
             {
                 "number_of_ratings": 104
