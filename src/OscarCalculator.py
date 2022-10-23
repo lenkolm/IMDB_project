@@ -1,19 +1,18 @@
 def oscar_calculator(data):
     for element in data:
-        if element['number_of_oscars'] == 1 or element['number_of_oscars'] == 2:
-            element['new_IMDB_rating'] = element['new_IMDB_rating'] + 0.3
-        elif 3 <= element['number_of_oscars'] < 6:
-            element['new_IMDB_rating'] = element['new_IMDB_rating'] + 0.5
-        elif 6 <= element['number_of_oscars'] <= 10:
-            element['new_IMDB_rating'] = element['new_IMDB_rating'] + 1
-        elif element['number_of_oscars'] > 10:
-            element['new_IMDB_rating'] = element['new_IMDB_rating'] + 1.5
 
-        element['new_IMDB_rating'] = min(10, element['new_IMDB_rating'])
+        oscar_number = element['number_of_oscars']
+        imdb_rating = element['new_IMDB_rating']
+
+        if oscar_number == 1 or oscar_number == 2:
+            imdb_rating += 0.3
+        elif 3 <= oscar_number < 6:
+            imdb_rating += 0.5
+        elif 6 <= oscar_number <= 10:
+            imdb_rating += 1
+        elif oscar_number > 10:
+            imdb_rating += 1.5
+
+        element['new_IMDB_rating'] = min(10, imdb_rating)
 
     return data
-
-
-
-
-
