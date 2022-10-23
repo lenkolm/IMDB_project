@@ -2,6 +2,7 @@ import unittest
 
 from src.OscarCalculator import oscar_calculator
 
+
 class OscarCalculatorMethods(unittest.TestCase):
 
     def test_oscar_calculator_normal_arguments(self):
@@ -91,3 +92,6 @@ class OscarCalculatorMethods(unittest.TestCase):
         ]
         self.assertEqual(oscar_calculator(data)[0]["rating_score"], 10)
 
+
+if __name__ == '__main__':
+    unittest.main()

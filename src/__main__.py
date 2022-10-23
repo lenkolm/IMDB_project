@@ -1,4 +1,5 @@
 import json
+import codecs
 
 from Scraper import *
 from Review_penalizer import *
@@ -6,8 +7,8 @@ from OscarCalculator import oscar_calculator
 
 
 def dump_into_json(data, filename):
-    with open(filename, 'w') as f:
-        json.dump(data, f)
+    with codecs.open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 
 def main():
