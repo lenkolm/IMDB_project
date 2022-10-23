@@ -22,8 +22,8 @@ def scrape_imdb_top_250(counter_max):
         movie_url = 'https://www.imdb.com' + movie_href
 
         d['name'] = rows[i].select_one('.titleColumn a').text.strip()
-        d['rating_score'] = float(rating_raw.split(' ')[0])
-        d['old_rating_score'] = float(rating_raw.split(' ')[0])
+        d['new_IMDB_rating'] = float(rating_raw.split(' ')[0])
+        d['old_IMDB_rating'] = float(rating_raw.split(' ')[0])
         d['number_of_ratings'] = int(rating_raw.split(' ')[-3].replace(',', ''))
         d['number_of_oscars'] = scrape_number_of_oscars(movie_url)
         

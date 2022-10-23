@@ -15,7 +15,7 @@ def main():
     data = scrape_imdb_top_250(20)
     penalized_data = review_penalizer(data)
     oscar_data = oscar_calculator(penalized_data)
-    sorted_data = sorted(oscar_data, key=lambda x: x['rating_score'], reverse=True)
+    sorted_data = sorted(oscar_data, key=lambda x: x['new_IMDB_rating'], reverse=True)
     dump_into_json(sorted_data, 'imdb_sheet.json')
 
 

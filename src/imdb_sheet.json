@@ -1,142 +1,142 @@
 [
     {
         "name": "A Gyűrűk Ura: A király visszatér",
-        "rating_score": 9.6,
-        "old_rating_score": 8.9,
-        "number_of_ratings": 1828680,
+        "new_IMDB_rating": 9.6,
+        "old_IMDB_rating": 8.9,
+        "number_of_ratings": 1828697,
         "number_of_oscars": 11
     },
     {
         "name": "A sötét lovag",
-        "rating_score": 9.3,
-        "old_rating_score": 9.0,
-        "number_of_ratings": 2625242,
+        "new_IMDB_rating": 9.3,
+        "old_IMDB_rating": 9.0,
+        "number_of_ratings": 2625257,
         "number_of_oscars": 2
     },
     {
         "name": "Forrest Gump",
-        "rating_score": 9.3,
-        "old_rating_score": 8.8,
-        "number_of_ratings": 2054982,
+        "new_IMDB_rating": 9.3,
+        "old_IMDB_rating": 8.8,
+        "number_of_ratings": 2054996,
         "number_of_oscars": 6
     },
     {
         "name": "A remény rabjai",
-        "rating_score": 9.2,
-        "old_rating_score": 9.2,
-        "number_of_ratings": 2652933,
+        "new_IMDB_rating": 9.2,
+        "old_IMDB_rating": 9.2,
+        "number_of_ratings": 2652946,
         "number_of_oscars": 0
     },
     {
         "name": "A keresztapa",
-        "rating_score": 8.9,
-        "old_rating_score": 9.2,
-        "number_of_ratings": 1838972,
+        "new_IMDB_rating": 8.9,
+        "old_IMDB_rating": 9.2,
+        "number_of_ratings": 1838990,
         "number_of_oscars": 3
     },
     {
         "name": "Eredet",
-        "rating_score": 8.9,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 2326693,
+        "new_IMDB_rating": 8.9,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 2326709,
         "number_of_oscars": 4
     },
     {
         "name": "A keresztapa II",
-        "rating_score": 8.7,
-        "old_rating_score": 9.0,
-        "number_of_ratings": 1260041,
+        "new_IMDB_rating": 8.7,
+        "old_IMDB_rating": 9.0,
+        "number_of_ratings": 1260059,
         "number_of_oscars": 6
     },
     {
         "name": "Schindler listája",
-        "rating_score": 8.6,
-        "old_rating_score": 8.9,
-        "number_of_ratings": 1344253,
+        "new_IMDB_rating": 8.6,
+        "old_IMDB_rating": 8.9,
+        "number_of_ratings": 1344262,
         "number_of_oscars": 7
     },
     {
         "name": "A Gyűrűk Ura: A gyűrű szövetsége",
-        "rating_score": 8.6,
-        "old_rating_score": 8.8,
-        "number_of_ratings": 1856412,
+        "new_IMDB_rating": 8.6,
+        "old_IMDB_rating": 8.8,
+        "number_of_ratings": 1856432,
         "number_of_oscars": 4
     },
     {
         "name": "Ponyvaregény",
-        "rating_score": 8.5,
-        "old_rating_score": 8.8,
-        "number_of_ratings": 2030726,
+        "new_IMDB_rating": 8.5,
+        "old_IMDB_rating": 8.8,
+        "number_of_ratings": 2030736,
         "number_of_oscars": 1
     },
     {
         "name": "Mátrix",
-        "rating_score": 8.5,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 1896673,
+        "new_IMDB_rating": 8.5,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 1896681,
         "number_of_oscars": 4
     },
     {
         "name": "Harcosok klubja",
-        "rating_score": 8.2,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 2098167,
+        "new_IMDB_rating": 8.2,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 2098186,
         "number_of_oscars": 0
     },
     {
         "name": "A Gyűrűk Ura: A két torony",
-        "rating_score": 8.0,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 1651261,
+        "new_IMDB_rating": 8.0,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 1651277,
         "number_of_oscars": 2
     },
     {
         "name": "A Birodalom visszavág",
-        "rating_score": 7.7,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 1281788,
+        "new_IMDB_rating": 7.7,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 1281799,
         "number_of_oscars": 1
     },
     {
         "name": "Hetedik",
-        "rating_score": 7.6,
-        "old_rating_score": 8.6,
-        "number_of_ratings": 1633969,
+        "new_IMDB_rating": 7.6,
+        "old_IMDB_rating": 8.6,
+        "number_of_ratings": 1633981,
         "number_of_oscars": 0
     },
     {
         "name": "Nagymenők",
-        "rating_score": 7.5,
-        "old_rating_score": 8.7,
-        "number_of_ratings": 1149522,
+        "new_IMDB_rating": 7.5,
+        "old_IMDB_rating": 8.7,
+        "number_of_ratings": 1149530,
         "number_of_oscars": 1
     },
     {
         "name": "Száll a kakukk fészkére",
-        "rating_score": 7.5,
-        "old_rating_score": 8.6,
-        "number_of_ratings": 1001429,
+        "new_IMDB_rating": 7.5,
+        "old_IMDB_rating": 8.6,
+        "number_of_ratings": 1001432,
         "number_of_oscars": 5
     },
     {
         "name": "Tizenkét dühös ember",
-        "rating_score": 7.2,
-        "old_rating_score": 9.0,
-        "number_of_ratings": 783342,
+        "new_IMDB_rating": 7.2,
+        "old_IMDB_rating": 9.0,
+        "number_of_ratings": 783348,
         "number_of_oscars": 0
     },
     {
         "name": "A Jó, a Rossz és a Csúf",
-        "rating_score": 7.0,
-        "old_rating_score": 8.8,
-        "number_of_ratings": 756776,
+        "new_IMDB_rating": 7.0,
+        "old_IMDB_rating": 8.8,
+        "number_of_ratings": 756778,
         "number_of_oscars": 0
     },
     {
         "name": "A hét szamuráj",
-        "rating_score": 6.3,
-        "old_rating_score": 8.6,
-        "number_of_ratings": 344741,
+        "new_IMDB_rating": 6.3,
+        "old_IMDB_rating": 8.6,
+        "number_of_ratings": 344743,
         "number_of_oscars": 0
     }
 ]
