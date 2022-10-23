@@ -10,6 +10,6 @@ def review_penalizer(data):
     max_number = find_most_rated_movie(data)
     for element in data:
         penalty_number = int((max_number - element['number_of_ratings']) / 100000)
-        element['rating_score'] = max(0, round(element['rating_score'] - penalty_number * 0.1, 1))
+        element['new_IMDB_rating'] = max(0, round(element['new_IMDB_rating'] - penalty_number * 0.1, 1))
 
     return data
