@@ -1,1 +1,142 @@
-[{"name": "A Gy\u0171r\u0171k Ura: A kir\u00e1ly visszat\u00e9r", "rating_score": 9.6, "old_rating_score": 8.9, "number_of_ratings": 1828569, "number_of_oscars": 11}, {"name": "A s\u00f6t\u00e9t lovag", "rating_score": 9.3, "old_rating_score": 9.0, "number_of_ratings": 2625132, "number_of_oscars": 2}, {"name": "Forrest Gump", "rating_score": 9.3, "old_rating_score": 8.8, "number_of_ratings": 2054859, "number_of_oscars": 6}, {"name": "A rem\u00e9ny rabjai", "rating_score": 9.2, "old_rating_score": 9.2, "number_of_ratings": 2652799, "number_of_oscars": 0}, {"name": "A keresztapa", "rating_score": 8.9, "old_rating_score": 9.2, "number_of_ratings": 1838870, "number_of_oscars": 3}, {"name": "Eredet", "rating_score": 8.9, "old_rating_score": 8.7, "number_of_ratings": 2326577, "number_of_oscars": 4}, {"name": "A keresztapa II", "rating_score": 8.7, "old_rating_score": 9.0, "number_of_ratings": 1259978, "number_of_oscars": 6}, {"name": "Schindler list\u00e1ja", "rating_score": 8.6, "old_rating_score": 8.9, "number_of_ratings": 1344189, "number_of_oscars": 7}, {"name": "A Gy\u0171r\u0171k Ura: A gy\u0171r\u0171 sz\u00f6vets\u00e9ge", "rating_score": 8.6, "old_rating_score": 8.8, "number_of_ratings": 1856277, "number_of_oscars": 4}, {"name": "Ponyvareg\u00e9ny", "rating_score": 8.5, "old_rating_score": 8.8, "number_of_ratings": 2030645, "number_of_oscars": 1}, {"name": "M\u00e1trix", "rating_score": 8.5, "old_rating_score": 8.7, "number_of_ratings": 1896608, "number_of_oscars": 4}, {"name": "Harcosok klubja", "rating_score": 8.2, "old_rating_score": 8.7, "number_of_ratings": 2098040, "number_of_oscars": 0}, {"name": "A Gy\u0171r\u0171k Ura: A k\u00e9t torony", "rating_score": 8.0, "old_rating_score": 8.7, "number_of_ratings": 1651158, "number_of_oscars": 2}, {"name": "A Birodalom visszav\u00e1g", "rating_score": 7.7, "old_rating_score": 8.7, "number_of_ratings": 1281743, "number_of_oscars": 1}, {"name": "Hetedik", "rating_score": 7.6, "old_rating_score": 8.6, "number_of_ratings": 1633865, "number_of_oscars": 0}, {"name": "Nagymen\u0151k", "rating_score": 7.5, "old_rating_score": 8.7, "number_of_ratings": 1149458, "number_of_oscars": 1}, {"name": "Sz\u00e1ll a kakukk f\u00e9szk\u00e9re", "rating_score": 7.5, "old_rating_score": 8.6, "number_of_ratings": 1001394, "number_of_oscars": 5}, {"name": "Tizenk\u00e9t d\u00fch\u00f6s ember", "rating_score": 7.2, "old_rating_score": 9.0, "number_of_ratings": 783291, "number_of_oscars": 0}, {"name": "A J\u00f3, a Rossz \u00e9s a Cs\u00faf", "rating_score": 7.0, "old_rating_score": 8.8, "number_of_ratings": 756740, "number_of_oscars": 0}, {"name": "A h\u00e9t szamur\u00e1j", "rating_score": 6.3, "old_rating_score": 8.6, "number_of_ratings": 344729, "number_of_oscars": 0}]
+[
+    {
+        "name": "A Gy\u0171r\u0171k Ura: A kir\u00e1ly visszat\u00e9r",
+        "rating_score": 9.6,
+        "old_rating_score": 8.9,
+        "number_of_ratings": 1828680,
+        "number_of_oscars": 11
+    },
+    {
+        "name": "A s\u00f6t\u00e9t lovag",
+        "rating_score": 9.3,
+        "old_rating_score": 9.0,
+        "number_of_ratings": 2625242,
+        "number_of_oscars": 2
+    },
+    {
+        "name": "Forrest Gump",
+        "rating_score": 9.3,
+        "old_rating_score": 8.8,
+        "number_of_ratings": 2054982,
+        "number_of_oscars": 6
+    },
+    {
+        "name": "A rem\u00e9ny rabjai",
+        "rating_score": 9.2,
+        "old_rating_score": 9.2,
+        "number_of_ratings": 2652933,
+        "number_of_oscars": 0
+    },
+    {
+        "name": "A keresztapa",
+        "rating_score": 8.9,
+        "old_rating_score": 9.2,
+        "number_of_ratings": 1838972,
+        "number_of_oscars": 3
+    },
+    {
+        "name": "Eredet",
+        "rating_score": 8.9,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 2326693,
+        "number_of_oscars": 4
+    },
+    {
+        "name": "A keresztapa II",
+        "rating_score": 8.7,
+        "old_rating_score": 9.0,
+        "number_of_ratings": 1260041,
+        "number_of_oscars": 6
+    },
+    {
+        "name": "Schindler list\u00e1ja",
+        "rating_score": 8.6,
+        "old_rating_score": 8.9,
+        "number_of_ratings": 1344253,
+        "number_of_oscars": 7
+    },
+    {
+        "name": "A Gy\u0171r\u0171k Ura: A gy\u0171r\u0171 sz\u00f6vets\u00e9ge",
+        "rating_score": 8.6,
+        "old_rating_score": 8.8,
+        "number_of_ratings": 1856412,
+        "number_of_oscars": 4
+    },
+    {
+        "name": "Ponyvareg\u00e9ny",
+        "rating_score": 8.5,
+        "old_rating_score": 8.8,
+        "number_of_ratings": 2030726,
+        "number_of_oscars": 1
+    },
+    {
+        "name": "M\u00e1trix",
+        "rating_score": 8.5,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 1896673,
+        "number_of_oscars": 4
+    },
+    {
+        "name": "Harcosok klubja",
+        "rating_score": 8.2,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 2098167,
+        "number_of_oscars": 0
+    },
+    {
+        "name": "A Gy\u0171r\u0171k Ura: A k\u00e9t torony",
+        "rating_score": 8.0,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 1651261,
+        "number_of_oscars": 2
+    },
+    {
+        "name": "A Birodalom visszav\u00e1g",
+        "rating_score": 7.7,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 1281788,
+        "number_of_oscars": 1
+    },
+    {
+        "name": "Hetedik",
+        "rating_score": 7.6,
+        "old_rating_score": 8.6,
+        "number_of_ratings": 1633969,
+        "number_of_oscars": 0
+    },
+    {
+        "name": "Nagymen\u0151k",
+        "rating_score": 7.5,
+        "old_rating_score": 8.7,
+        "number_of_ratings": 1149522,
+        "number_of_oscars": 1
+    },
+    {
+        "name": "Sz\u00e1ll a kakukk f\u00e9szk\u00e9re",
+        "rating_score": 7.5,
+        "old_rating_score": 8.6,
+        "number_of_ratings": 1001429,
+        "number_of_oscars": 5
+    },
+    {
+        "name": "Tizenk\u00e9t d\u00fch\u00f6s ember",
+        "rating_score": 7.2,
+        "old_rating_score": 9.0,
+        "number_of_ratings": 783342,
+        "number_of_oscars": 0
+    },
+    {
+        "name": "A J\u00f3, a Rossz \u00e9s a Cs\u00faf",
+        "rating_score": 7.0,
+        "old_rating_score": 8.8,
+        "number_of_ratings": 756776,
+        "number_of_oscars": 0
+    },
+    {
+        "name": "A h\u00e9t szamur\u00e1j",
+        "rating_score": 6.3,
+        "old_rating_score": 8.6,
+        "number_of_ratings": 344741,
+        "number_of_oscars": 0
+    }
+]

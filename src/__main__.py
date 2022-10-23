@@ -7,7 +7,7 @@ from OscarCalculator import oscar_calculator
 
 def dump_into_json(data, filename):
     with open(filename, 'w') as f:
-        json.dump(data, f)
+        json.dump(data, f, indent=4)
 
 
 def main():
