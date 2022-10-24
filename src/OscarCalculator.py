@@ -1,3 +1,4 @@
+# Alters the movies' ratings based on the number of Oscar awards they received
 def oscar_calculator(data):
     for element in data:
 
@@ -13,6 +14,7 @@ def oscar_calculator(data):
         elif oscar_number > 10:
             imdb_rating += 1.5
 
+        # There is a possibility that the rating could go over ten
         element['new_IMDB_rating'] = min(10, imdb_rating)
 
     return data

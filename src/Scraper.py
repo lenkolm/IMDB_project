@@ -1,22 +1,23 @@
 import requests
 from bs4 import BeautifulSoup
 
-def scrape_imdb_top_250(counter_max):
 
+# Gets information from the IMDB top 250 page and puts it into the data variable
+def scrape_imdb_top_250(counter_max):
     if counter_max > 250 or counter_max < 0:
         raise Exception("Input is out of range")
 
     url = 'https://www.imdb.com/chart/top/'
     r = requests.get(url)
     soup = BeautifulSoup(r.content, 'html.parser')
+    # Returns the table that contains movies
     rows = soup.select('#main > div > span > div > div > div.lister > table > tbody tr')
 
     data = []
 
     for i in range(counter_max):
-    
         d = dict()
-        
+
         rating_raw = rows[i].select_one('.ratingColumn strong')['title']
         movie_href = rows[i].select_one('.titleColumn a')['href']
         movie_url = 'https://www.imdb.com' + movie_href
@@ -26,14 +27,17 @@ def scrape_imdb_top_250(counter_max):
         d['old_IMDB_rating'] = float(rating_raw.split(' ')[0])
         d['number_of_ratings'] = int(rating_raw.split(' ')[-3].replace(',', ''))
         d['number_of_oscars'] = scrape_number_of_oscars(movie_url)
-        
+
         data.append(d)
 
     return data
 
+
+# Gets the number of oscars from a given IMDB movie url
 def scrape_number_of_oscars(movie_url):
     r = requests.get(movie_url)
-    soup = BeautifulSoup(r.content,'html.parser')
+    soup = BeautifulSoup(r.content, 'html.parser')
+    # This contains the information whether the movie won an Oscar
     oscar_row = soup.select_one('#__next > main > div > section.ipc-page-background.ipc-page-background--base.sc'
                                 '-9b716f3b-0.hWwhTB > div > section > div > '
                                 'div.sc-b1d8602f-1.fuYOtZ.ipc-page-grid__item.ipc-page-grid__item--span-2 > '
