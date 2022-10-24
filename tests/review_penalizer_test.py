@@ -77,77 +77,77 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         data = [
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 9.5
+                'new_IMDB_rating': 9.5
             },
             {
                 "number_of_ratings": 2100000,
-                "rating_score": 7.0
+                'new_IMDB_rating': 7.0
             },
             {
                 "number_of_ratings": 1900000,
-                "rating_score": 7.0
+                'new_IMDB_rating': 7.0
             }
         ]
-        self.assertEqual(review_penalizer(data)[0]["rating_score"], 8.4)
-        self.assertEqual(data[1]["rating_score"], 7.0)
-        self.assertEqual(data[2]["rating_score"], 6.8)
+        self.assertEqual(review_penalizer(data)[0]['new_IMDB_rating'], 8.4)
+        self.assertEqual(data[1]['new_IMDB_rating'], 7.0)
+        self.assertEqual(data[2]['new_IMDB_rating'], 6.8)
 
     def test_review_penalizer_all_ratings_are_the_same(self):
         data = [
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 9.5
+                'new_IMDB_rating': 9.5
             },
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 7.0
+                'new_IMDB_rating': 7.0
             },
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 6.0
+                'new_IMDB_rating': 6.0
             }
         ]
-        self.assertEqual(review_penalizer(data)[0]["rating_score"], 9.5)
-        self.assertEqual(data[1]["rating_score"], 7.0)
-        self.assertEqual(data[2]["rating_score"], 6.0)
+        self.assertEqual(review_penalizer(data)[0]['new_IMDB_rating'], 9.5)
+        self.assertEqual(data[1]['new_IMDB_rating'], 7.0)
+        self.assertEqual(data[2]['new_IMDB_rating'], 6.0)
 
     def test_review_penalizer_negative_result(self):
         data = [
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 9.5
+                'new_IMDB_rating': 9.5
             },
             {
                 "number_of_ratings": 1000000000,
-                "rating_score": 7.0
+                'new_IMDB_rating': 7.0
             },
             {
                 "number_of_ratings": 1000000,
-                "rating_score": 6.0
+                'new_IMDB_rating': 6.0
             }
         ]
-        self.assertEqual(review_penalizer(data)[0]["rating_score"], 0)
-        self.assertEqual(data[1]["rating_score"], 7.0)
-        self.assertEqual(data[2]["rating_score"], 0)
+        self.assertEqual(review_penalizer(data)[0]['new_IMDB_rating'], 0)
+        self.assertEqual(data[1]['new_IMDB_rating'], 7.0)
+        self.assertEqual(data[2]['new_IMDB_rating'], 0)
 
     def test_review_penalizer_all_zero_ratings(self):
         data = [
             {
                 "number_of_ratings": 0,
-                "rating_score": 9.5
+                'new_IMDB_rating': 9.5
             },
             {
                 "number_of_ratings": 0,
-                "rating_score": 7.0
+                'new_IMDB_rating': 7.0
             },
             {
                 "number_of_ratings": 0,
-                "rating_score": 6.0
+                'new_IMDB_rating': 6.0
             }
         ]
-        self.assertEqual(review_penalizer(data)[0]["rating_score"], 9.5)
-        self.assertEqual(data[1]["rating_score"], 7.0)
-        self.assertEqual(data[2]["rating_score"], 6.0)
+        self.assertEqual(review_penalizer(data)[0]['new_IMDB_rating'], 9.5)
+        self.assertEqual(data[1]['new_IMDB_rating'], 7.0)
+        self.assertEqual(data[2]['new_IMDB_rating'], 6.0)
 
 
 if __name__ == '__main__':
