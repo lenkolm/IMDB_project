@@ -19,7 +19,6 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         ]
         self.assertEqual(find_most_rated_movie(data), 103)
 
-
     def test_find_most_rated_movie_second_one_is_biggest(self):
         data = [
             {
@@ -33,7 +32,6 @@ class TestReviewPenalizerMethods(unittest.TestCase):
             }
         ]
         self.assertEqual(find_most_rated_movie(data), 104)
-
 
     def test_find_most_rated_movie_third_one_is_biggest(self):
         data = [
@@ -49,11 +47,9 @@ class TestReviewPenalizerMethods(unittest.TestCase):
         ]
         self.assertEqual(find_most_rated_movie(data), 105)
 
-
     def test_find_most_rated_movie_4_no_movies(self):
         data = []
         self.assertEqual(find_most_rated_movie(data), 0)
-
 
     def test_find_most_rated_movie_all_ratings_the_same(self):
         data = [
