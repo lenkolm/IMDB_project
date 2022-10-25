@@ -3,7 +3,11 @@
 
 ## Installation
 
-You can install the project straight from Github.
+You can install the project straight from Github via HTTPS:
+
+```
+git clone https://github.com/lenkolm/IMDB_project.git
+```
 
 Before running, make sure you have Python 3.8 or newer versions on your computer.
 There is a 'requirements.txt' file, which you have to run after installing.
