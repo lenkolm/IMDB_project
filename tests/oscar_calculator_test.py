@@ -88,8 +88,19 @@ class OscarCalculatorMethods(unittest.TestCase):
         self.assertEqual(data[2]['new_IMDB_rating'], 8)
         self.assertEqual(data[3]['new_IMDB_rating'], 8)
         self.assertEqual(data[4]['new_IMDB_rating'], 8)
-
+        
+        
     def test_oscar_calculator_more_than_ten(self):
+        data = [
+            {
+                "number_of_ratings": 1000000,
+                'new_IMDB_rating': 8.0,
+                "number_of_oscars": 11
+            }
+        ]
+        self.assertEqual(oscar_calculator(data)[0]['new_IMDB_rating'], 9.5)
+
+    def test_oscar_calculator_more_than_ten_out_of_range(self):
         data = [
             {
                 "number_of_ratings": 1000000,
